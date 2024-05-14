@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kontakt</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="headerbox">
+        <div class="logo">
+          <a href="/"><img src="../img/jb-logo3.png" alt="jb-logo" /></a>
+        </div>
+        <nav>
+          <a href="about.html">OM MIG</a><label for="|">|</label>
+          <a href="portfolio.html">PORTFOLIO</a><label for="|">|</label>
+          <a href="contact.html">KONTAKT</a><label for="|"></label>
+          <input
+            type="text"
+            id="search"
+            name="search"
+            size="10"
+            placeholder="SØG.."
+          />
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper">
+      <main>
+        <section>
+          <div class="sectiontitle" id="contacttitle">
+            <h2>Kontakt</h2>
+            <h3>Lad os starte et projekt sammen!</h3>
+          </div>
+          <div class="containercontact">
+            <div class="contactbox1">
+              <div class="contactrow">
+                <img src="/img/email.png" alt="email" />
+                <div class="contactinfo">
+                  <h3>Mail</h3>
+                  <p>juben@gmail.com</p>
+                </div>
+              </div>
+              <div class="contactrow">
+                <img src="/img/phone.png" alt="phone" />
+                <div class="contactinfo">
+                  <h3>Telefon</h3>
+                  <p>24555547</p>
+                </div>
+              </div>
+              <div class="contactrow">
+                <img src="/img/location.png" alt="location" />
+                <div class="contactinfo">
+                  <h3>Lokation</h3>
+                  <p>København</p>
+                </div>
+              </div>
+              <div class="contactrow">
+                <img src="/img/timezone.png" alt="timezone" />
+                <div class="contactinfo">
+                  <h3>Tidszone</h3>
+                  <p>(GMT+1)</p>
+                </div>
+              </div>
+            </div>
+            <div class="contactbox2">
+              <div class="contactform">
+                <h2>Kontakt formular</h2>
+                <form action="/action_page.php">
+                  <input
+                    type="text"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Dit navn.."
+                    required
+                  />
+                  <input
+                    type="text"
+                    id="mailform"
+                    name="mail"
+                    placeholder="Din e-mail.."
+                    required
+                  />
+                  <input
+                    type="text"
+                    id="pnumber"
+                    name="phonenumber"
+                    pattern="[+]{1}[0-9]{11,14}"
+                    placeholder="Dit telefon nummer.."
+                  />
+                  <textarea
+                    id="subjectform"
+                    name="subject"
+                    placeholder="Din besked.."
+                    style="height: 100px"
+                    required
+                  ></textarea>
+                  <input type="submit" value="Send" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="footerwrapper">
+        <div class="footerrow1">
+          <h4>JULIAN BENDTSEN</h4>
+          <p>Multimediadesigner og E-commerce Specialist</p>
+          <p></p>
+          <p>Find mig her:</p>
+          <a href="https://www.facebook.com/JulianBendtsen" target="_blank"
+            ><img src="/img/facebook.svg" alt="facebook"
+          /></a>
+          <a href="https://www.instagram.com/designovation.dk/" target="_blank"
+            ><img src="/img/instagram.svg" alt="instagram"
+          /></a>
+        </div>
+        <div class="footerrow2">
+          <h4>PORTFOLIO</h4>
+          <ul>
+            <li><a href="#">Wordpress</a></li>
+            <li><a href="#">Photoshop</a></li>
+          </ul>
+        </div>
+        <div class="footerrow3">
+          <h4>SITEMAP</h4>
+          <ul>
+            <li><a href="/">Forside</a></li>
+            <li><a href="about.html">Om mig</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footerrow4">
+          <h4>KONTAKT</h4>
+          <div class="footercontactform">
+            <p>Du er velkommen til at sende mig en besked nedenunder.</p>
+            <form action="/action_page.php">
+              <input
+                type="text"
+                id="mail"
+                name="mail"
+                placeholder="Din e-mail.."
+                required
+              />
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Din besked.."
+                style="height: 100px"
+                required
+              ></textarea>
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2021 | by Julian Bendtsen</p>
+      </div>
+    </footer>
+  </body>
+</html>
